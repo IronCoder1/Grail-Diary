@@ -1,0 +1,32 @@
+ [
+  {
+    "name": "Pompeii",
+    "location": "Italy",
+    "description": "Pompeii was an ancient Roman town-city. Pompeii, along with Herculaneum and many villas in the surrounding area, was mostly destroyed and buried under 4 to 6 m (13 to 20 ft) of volcanic ash and pumice in the eruption of Mount Vesuvius in AD 79.",
+    "image" : "pompeii.jpg"
+  },
+  {
+    "name": "Bete Giyorgis",
+    "location": "Ethiopia",
+    "description": " Bete Giyorgis, or the Church of St. George is one of many Stone-Hewn churches  built between the late 12th and 13th century in Lalibela. Extending 40 feet down into the stone and shaped like a cross.",
+    "image" : "churchofstgeorge.jpg"
+  },
+  {
+    "name": "Great Mosque of Djenne",
+    "location": "Mali",
+    "description": "Grand Mosque of Djenne in the former African empire of Mali is a large banco or adobe building that is considered by many architects to be one of the greatest achievements of the Sudano-Sahelian architectural style. The mosque is located in the city of Djenné, Mali, on the flood plain of the Bani River. The first mosque on the site was built around the 13th century ",
+    "image" : "tylermosquepic.jpg"
+  },
+    {
+    "name": "The Temple of Quetzalcoatl-Ehecatl",
+    "location": "Mexico",
+    "description": "The Temple of Quetzalcoatl-Ehecatl in Calixtlahuaca is circular temple dedicated to the Aztec wind god Ehecatl, and Structure 17, a large royal “palace”. The architecture and stone sculpture at the site is similar to that of other Middle to Late Postclassic period (AD 1100-1520) Aztec sites in central Mexico.",
+     "image" : "quetzalcoatl.jpg"
+  },
+  {
+    "name": "Harappa Town",
+    "location": "India ",
+    "description": "A prodigious civilization lived in the region about 5000 years ago and tied round the river Indus and its tributaries and thus identified as the Indus valley civilization.",
+     "image" : "harappa.jpg"
+  },
+  ]

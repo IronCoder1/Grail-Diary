@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		6C1E30881CD94A3F000E0259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30871CD94A3F000E0259 /* main.m */; };
 		6C1E308B1CD94A3F000E0259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E308A1CD94A3F000E0259 /* AppDelegate.m */; };
-		6C1E308E1CD94A3F000E0259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E308D1CD94A3F000E0259 /* ViewController.m */; };
 		6C1E30911CD94A3F000E0259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E308F1CD94A3F000E0259 /* Main.storyboard */; };
 		6C1E30931CD94A3F000E0259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30921CD94A3F000E0259 /* Assets.xcassets */; };
 		6C1E30961CD94A3F000E0259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30941CD94A3F000E0259 /* LaunchScreen.storyboard */; };
+		6C1E30A41CD95F6F000E0259 /* churchofstgeorge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E309D1CD95F6F000E0259 /* churchofstgeorge.jpg */; };
+		6C1E30A51CD95F6F000E0259 /* harappa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E309E1CD95F6F000E0259 /* harappa.jpg */; };
+		6C1E30A61CD95F6F000E0259 /* osunoshogbo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E309F1CD95F6F000E0259 /* osunoshogbo.jpg */; };
+		6C1E30A71CD95F6F000E0259 /* pompeii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30A01CD95F6F000E0259 /* pompeii.jpg */; };
+		6C1E30A81CD95F6F000E0259 /* quetzalcoatl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30A11CD95F6F000E0259 /* quetzalcoatl.jpg */; };
+		6C1E30A91CD95F6F000E0259 /* tylermosquepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30A21CD95F6F000E0259 /* tylermosquepic.jpg */; };
+		6C1E30AA1CD95F6F000E0259 /* sites.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30A31CD95F6F000E0259 /* sites.json */; };
+		6C1E30AD1CD960DD000E0259 /* SiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */; };
+		6C1E30B01CD960FA000E0259 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30AF1CD960FA000E0259 /* Site.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,21 @@
 		6C1E30871CD94A3F000E0259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C1E30891CD94A3F000E0259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C1E308A1CD94A3F000E0259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C1E308C1CD94A3F000E0259 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C1E308D1CD94A3F000E0259 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C1E30901CD94A3F000E0259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C1E30921CD94A3F000E0259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C1E30951CD94A3F000E0259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1E30971CD94A3F000E0259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1E309D1CD95F6F000E0259 /* churchofstgeorge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = churchofstgeorge.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E309E1CD95F6F000E0259 /* harappa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harappa.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E309F1CD95F6F000E0259 /* osunoshogbo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osunoshogbo.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E30A01CD95F6F000E0259 /* pompeii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pompeii.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E30A11CD95F6F000E0259 /* quetzalcoatl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quetzalcoatl.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E30A21CD95F6F000E0259 /* tylermosquepic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tylermosquepic.jpg; sourceTree = SOURCE_ROOT; };
+		6C1E30A31CD95F6F000E0259 /* sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sites.json; sourceTree = SOURCE_ROOT; };
+		6C1E30AB1CD960DD000E0259 /* SiteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteTableViewController.h; path = ../SiteTableViewController.h; sourceTree = "<group>"; };
+		6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteTableViewController.m; path = ../SiteTableViewController.m; sourceTree = "<group>"; };
+		6C1E30AE1CD960FA000E0259 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Site.h; path = ../Site.h; sourceTree = "<group>"; };
+		6C1E30AF1CD960FA000E0259 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = ../Site.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +77,18 @@
 			children = (
 				6C1E30891CD94A3F000E0259 /* AppDelegate.h */,
 				6C1E308A1CD94A3F000E0259 /* AppDelegate.m */,
-				6C1E308C1CD94A3F000E0259 /* ViewController.h */,
-				6C1E308D1CD94A3F000E0259 /* ViewController.m */,
+				6C1E30AE1CD960FA000E0259 /* Site.h */,
+				6C1E30AF1CD960FA000E0259 /* Site.m */,
+				6C1E30AB1CD960DD000E0259 /* SiteTableViewController.h */,
+				6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */,
 				6C1E308F1CD94A3F000E0259 /* Main.storyboard */,
+				6C1E309D1CD95F6F000E0259 /* churchofstgeorge.jpg */,
+				6C1E309E1CD95F6F000E0259 /* harappa.jpg */,
+				6C1E309F1CD95F6F000E0259 /* osunoshogbo.jpg */,
+				6C1E30A01CD95F6F000E0259 /* pompeii.jpg */,
+				6C1E30A11CD95F6F000E0259 /* quetzalcoatl.jpg */,
+				6C1E30A21CD95F6F000E0259 /* tylermosquepic.jpg */,
+				6C1E30A31CD95F6F000E0259 /* sites.json */,
 				6C1E30921CD94A3F000E0259 /* Assets.xcassets */,
 				6C1E30941CD94A3F000E0259 /* LaunchScreen.storyboard */,
 				6C1E30971CD94A3F000E0259 /* Info.plist */,
@@ -136,8 +162,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1E30A81CD95F6F000E0259 /* quetzalcoatl.jpg in Resources */,
 				6C1E30961CD94A3F000E0259 /* LaunchScreen.storyboard in Resources */,
+				6C1E30A91CD95F6F000E0259 /* tylermosquepic.jpg in Resources */,
+				6C1E30A71CD95F6F000E0259 /* pompeii.jpg in Resources */,
+				6C1E30A41CD95F6F000E0259 /* churchofstgeorge.jpg in Resources */,
+				6C1E30A61CD95F6F000E0259 /* osunoshogbo.jpg in Resources */,
 				6C1E30931CD94A3F000E0259 /* Assets.xcassets in Resources */,
+				6C1E30A51CD95F6F000E0259 /* harappa.jpg in Resources */,
+				6C1E30AA1CD95F6F000E0259 /* sites.json in Resources */,
 				6C1E30911CD94A3F000E0259 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +182,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1E308E1CD94A3F000E0259 /* ViewController.m in Sources */,
 				6C1E308B1CD94A3F000E0259 /* AppDelegate.m in Sources */,
+				6C1E30AD1CD960DD000E0259 /* SiteTableViewController.m in Sources */,
+				6C1E30B01CD960FA000E0259 /* Site.m in Sources */,
 				6C1E30881CD94A3F000E0259 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
