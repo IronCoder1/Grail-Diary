@@ -8,6 +8,7 @@
 
 #import "SiteTableViewController.h"
 #import "Site.h"
+#import "DetailViewController.h"
 
 @interface SiteTableViewController ()
 @property (strong, nonatomic) NSArray *siteList;
@@ -20,12 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Grail Diary";
-    [self loadSites];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    _sites = [[NSMutableArray alloc]initWithCapacity:0];
+    [self loadSites];
+
 }
 
 -(void)loadSites{
@@ -44,8 +43,6 @@
         
     }
 
-    
-
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -55,24 +52,46 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return [self.sites count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"basicCell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    Site *iVarOfSite = self.sites[indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:14];
+    cell.textLabel.textColor = [UIColor blueColor];
+    cell.textLabel.text = iVarOfSite.name;
+    cell.detailTextLabel.text = iVarOfSite.location;
     
     return cell;
 }
-*/
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
+    
+    [self performSegueWithIdentifier:@"detailSegue" sender:nil];
+    
+}
+
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  
+    
+    if ([segue.identifier isEqualToString:@"detailSegue"]) {
+        // the instance of hvc will confirm to delegate
+        DetailViewController *dvc =[segue destinationViewController];
+        
+        NSIndexPath *newPath = [self.tableView indexPathForSelectedRow];
+        Site *detailViewSiteInstance = self.sites[newPath.row];
+        
+        dvc.siteModelObject = detailViewSiteInstance;
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -108,14 +127,6 @@
 }
 */
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

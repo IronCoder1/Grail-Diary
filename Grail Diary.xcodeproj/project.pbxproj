@@ -21,6 +21,7 @@
 		6C1E30AA1CD95F6F000E0259 /* sites.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E30A31CD95F6F000E0259 /* sites.json */; };
 		6C1E30AD1CD960DD000E0259 /* SiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */; };
 		6C1E30B01CD960FA000E0259 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30AF1CD960FA000E0259 /* Site.m */; };
+		6C1E30E91CDA1712000E0259 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E30E81CDA1712000E0259 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteTableViewController.m; path = ../SiteTableViewController.m; sourceTree = "<group>"; };
 		6C1E30AE1CD960FA000E0259 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Site.h; path = ../Site.h; sourceTree = "<group>"; };
 		6C1E30AF1CD960FA000E0259 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = ../Site.m; sourceTree = "<group>"; };
+		6C1E30E71CDA1712000E0259 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6C1E30E81CDA1712000E0259 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				6C1E30AF1CD960FA000E0259 /* Site.m */,
 				6C1E30AB1CD960DD000E0259 /* SiteTableViewController.h */,
 				6C1E30AC1CD960DD000E0259 /* SiteTableViewController.m */,
+				6C1E30E71CDA1712000E0259 /* DetailViewController.h */,
+				6C1E30E81CDA1712000E0259 /* DetailViewController.m */,
 				6C1E308F1CD94A3F000E0259 /* Main.storyboard */,
 				6C1E309D1CD95F6F000E0259 /* churchofstgeorge.jpg */,
 				6C1E309E1CD95F6F000E0259 /* harappa.jpg */,
@@ -182,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1E30E91CDA1712000E0259 /* DetailViewController.m in Sources */,
 				6C1E308B1CD94A3F000E0259 /* AppDelegate.m in Sources */,
 				6C1E30AD1CD960DD000E0259 /* SiteTableViewController.m in Sources */,
 				6C1E30B01CD960FA000E0259 /* Site.m in Sources */,
